@@ -3,3 +3,7 @@ export {default as BookDetail } from './BookDetail';
 export {default as Feed } from './Feed';
 export {default as Favorites } from './Favorites';
 export {default as SearchFeed } from './SearchFeed';
+export {default as UserTray } from './UserTray';
+export {default as SearchBar } from './SearchBar';
+
+export {default as Logo } from '../utils/Logo';
