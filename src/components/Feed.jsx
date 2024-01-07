@@ -10,8 +10,7 @@ const Feed = () => {
         sx={{ flexDirection:{ sx:'column', md:'row' } }}>
             <Box
             sx={{ height: {sx: 'auto', md:'90vh'}, 
-            backgroundColor: '#000',
-            borderRight: '1px, solid, #3d3d3d', 
+            borderRight: '1px solid #e2e2e2', 
             px: {sx : 0, md:'24px'},
             py: '30px',
             width: {md: '18vw'} 
