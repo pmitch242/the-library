@@ -10,13 +10,12 @@ const Feed = () => {
         sx={{ flexDirection:{ sx:'column', md:'row' } }}>
             <Box
             sx={{ height: {sx: 'auto', md:'90vh'}, 
-            borderRight: '1px solid #e2e2e2', 
             px: {sx : 0, md:'24px'},
-            py: '30px',
-            width: {md: '18vw'} 
+            py: '0px',
+            width: {md: '15vw'} 
         }}
             >
-                <SideBar></SideBar>
+                <SideBar />
             </Box>
         </Stack>
     )
