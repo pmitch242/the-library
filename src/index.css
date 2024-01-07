@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #0a2800;
+    /* color: #0a2800; */
     /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     font-family: 'Comfortaa', sans-serif;
 }
@@ -15,3 +15,33 @@ a {
 .logo {
     font-weight: 700;
 }
+
+.menu-section{
+    border-bottom: #dedede 1px solid;
+    margin-bottom: 21px;
+    padding-bottom: 10px;
+}
+
+.sidebar-btn {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 12px 0;
+}
+
+.sidebar-btn:hover {
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.sidebar-icon{
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 8px 7px 9%;
+    margin-right: 10px;
+}
+
+.sidebar-icon svg{
+    vertical-align: middle;
+    width: 15px;
+} 
